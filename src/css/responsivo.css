@@ -1,0 +1,63 @@
+@media (max-width: 375px) { 
+
+
+
+
+
+    .conteudo {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .imagem-perfume {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        height: 400px;
+        gap: 30px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        border-radius: 10px;
+        gap: 30px;
+
+    }
+
+
+}
+
+
+@media (max-width: 750px) {
+    .conteudo {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .imagem-perfume {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        height: 400px;
+        gap: 30px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        border-radius: 10px;
+        gap: 30px;
+    }
+
+}

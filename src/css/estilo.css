@@ -1,0 +1,130 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+     
+    
+}
+
+.conteudo {
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;    
+    padding: 70px;
+    justify-content: center;
+    padding: 200px;
+    
+            
+}
+
+.imagem-perfume {
+    display: flex;
+    border-radius: 10px 0px 0px 10px;
+    width: 400px;
+    height: 600px;
+
+}
+
+
+
+.container {
+    
+    display: flex;   
+    background-color: white;
+    flex-direction: column; 
+    border-radius: 0px 10px 10px 0px;
+    padding: 40px 60px 60px 40px;
+    width: 400px;
+    height: 600px;
+   
+    
+}
+
+.titulo-ilustrativo {
+    
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    padding-bottom: 25px;
+    font-size: 110%;
+    letter-spacing: 5px;
+    
+    
+}
+
+.titulo-nome {
+    
+    color: hsl(212, 21%, 14%);   
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    
+
+}
+
+.descricao {
+   
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    font-size: 115%;
+    line-height: 130%;
+    padding-bottom: 30px;
+    
+
+}
+
+.precos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 35px;
+
+    
+}
+
+.preco-grande {
+        color: hsl(158, 36%, 37%);
+        font-family: 'Merriweather', serif;
+        font-size: 250%;
+
+}
+
+.preco-pequeno {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    padding-left: 25px;
+    text-decoration: line-through;
+}
+
+.botao {
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;       
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    
+        
+}
+
+.botao:hover {
+    background-color: hsl(158, 37%, 20%);
+    cursor: pointer;
+}
+
+.text-cart { 
+    color: white;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-size: 130%;
+    font-weight: 700;
+
+}
+
+.icone-cart {
+    width: 8%;
+
+}
